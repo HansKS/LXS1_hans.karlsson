@@ -1,0 +1,448 @@
+    1  exit
+    2  su - academia
+    3  exit
+    4  -ls la
+    5  pwd -l
+    6  pwd -L
+    7  vi /etc/localdomains
+    8  vimtutor
+    9  dmesg
+   10  less --help
+   11  cat /var/log/syslog 
+   12  sync
+   13  sudo -
+   14  su -
+   15  ssh root@190.112.221.104
+   16  su -
+   17  ssh user@54.187.18.35
+   18  ssh user@54.187.118.35
+   19  su -
+   20  la -l
+   21  ls -l
+   22  visudo
+   23  ssh root@54.187.118.35
+   24  ssh user@54.187.118.35
+   25  exit
+   26  ps aux
+   27  s
+   28  ls
+   29  mkdir octa
+   30  cd octa
+   31  su - academia
+   32  su - academia
+   33  pwd
+   34  echo
+   35  echo hola
+   36  ls /
+   37  ls / etc
+   38  ls wtc /
+   39  ls etc/
+   40  ls etc
+   41  alias my_year="cal 2017
+   42  my_year
+   43  alias my_year="cal 2017
+   44  my_yearxit
+   45  exit
+   46  alias my_year="cal 2017"
+   47  my_year
+   48  claer
+   49  clear
+   50  dpkg --get--selections | grep linux
+   51  dpkg --get-- selections | grep linux
+   52  dpkg --get-selections | grep linux
+   53  which ls
+   54  ls -l {.{ICEauthority,Xauthority,adobe,bash{_{history,logout},rc},c{ache,o{mpiz,nfig}},dmrc,g{conf,n{ome,upg},photo},local,mozilla,p{ki,rofile},ssh,viminfo,xsession-errors{,.old}},D{escargas,ocumentos},Escritorio,Imágenes,Música,P{lantillas,úblico},V{irtualBox\ VMs,ídeos},deb00.qcow,examples.desktop,octa} 
+   55  `````````````````````````
+   56  clear5
+   57  exit
+   58  exdit
+   59  exit
+   60  dpkg --get-selections | grep linux
+   61  which ls 
+   62  ls -l `which ls`
+   63  which grep
+   64  ls -lh 
+   65  ls -l
+   66  ls -lh
+   67  ls -l `which ls`
+   68  ls -lh `which ls`
+   69  ls /bin
+   70  ls -lh /bin
+   71  ls -lh /bin/
+   72  which /bin
+   73  ls /bin
+   74  ls /bin/nano
+   75  ls /bin/sleep
+   76  ls -lh /bin/sleep
+   77  ls /bin/sleep
+   78  hisorty 
+   79  history
+   80  pwd
+   81  pwd ls
+   82  pwd ls -lh
+   83  cd
+   84  cd ..
+   85  pwd
+   86  cd academia
+   87  cd academia/estudientes
+   88  cd academia/estudiantes
+   89  cd home/estudiantes
+   90  cd home
+   91  cd .
+   92  cd ..
+   93  cd home/estudiantes/
+   94  man ls 
+   95  bash ?
+   96  '
+   97  ls -w 40 -t 20 
+   98  ls -w 40 -t 20 ?
+   99  ls -w40 -t20
+  100  uname
+  101  uname -a
+  102  uname -n
+  103  uname -n -o
+  104  u name 
+  105  uname
+  106  uname -n -o
+  107  ca
+  108  ls -l /bin/chown
+  109  uname -n -o
+  110  calendar 2017
+  111  calendar 2017 ls
+  112  calendar 2017 -lh
+  113  bash
+  114  VAR1=caso
+  115  echo
+  116  ehco caso
+  117  echo VAR1
+  118  echo $VAR1
+  119  VAR1=otro
+  120  echo $VAR1
+  121  ehco Este es $VAR1 caso 
+  122  echo Este es $VAR1 caso 
+  123  echo 'Este es $VAR1 caso'
+  124  ip -4 addr
+  125  htop
+  126  sudo install htop
+  127  estudiantes
+  128  VAR1=5
+  129  VAR2=otro
+  130  mi_var=caso
+  131  echo $VAR1 esta es una salida $VAR2 en el $mi_var
+  132  export VAR1
+  133  echo $VAR1
+  134  export VAR1
+  135  echo $VAR1
+  136  exit
+  137  VAR1=bash
+  138  echo VAR1
+  139  echo $VAR1
+  140  export VAR1
+  141  echo VAR1
+  142  echo $VAR1
+  143  exit
+  144  VAR1=5
+  145  VAR2=otro
+  146  mi_var=caso
+  147  echo $VAR1 esta es una salida $VAR2 es el $mi_var
+  148  bash
+  149  export VAR1
+  150  echo $VAR1
+  151  set
+  152  set | less
+  153  env | less
+  154  env | grep var
+  155  env | grep VAR
+  156  set | grep VAR
+  157  set | grep var
+  158  set | grep mi
+  159  set | grep -i VAR
+  160  env | less 
+  161  pwd
+  162  lang
+  163  echo $lang
+  164  echo $LANG
+  165  mkdir $home/prueba1
+  166  mkdir $HOME/prueba1
+  167  cd /etc/apt
+  168  echo $HOME
+  169  mkdir $HOME/prueba1/prueba2
+  170  ls $HOME/prueba1
+  171  tree $HOME/prueba1
+  172  cd $HOME
+  173  cd /etc/apt
+  174  cd
+  175  cd /etc/apt
+  176  cd /HOME/estudiantes
+  177  cd 
+  178  echo $SHELL
+  179  /bin/ls --color
+  180  /bin/ls 
+  181  VAR1=`ls*.txt`
+  182  VAR1=`ls *.txt`
+  183  VAR1=$(ls *.txt)
+  184  PROJECT$(pwd)
+  185  PROJECT=$(pwd)
+  186  echo $PROJECT
+  187  nano prog1.sh
+  188  mv prog1.sh 
+  189  mv prog1.sh prueba1/
+  190  cd /prueba1
+  191  mv prog1.sh /tmp/
+  192  cd/tmp
+  193  cd /tmp
+  194  ls
+  195  chmod 750 rpog|.sh
+  196  cd /prueba1
+  197  cd /prueba1/
+  198  cd
+  199  which prog1
+  200  which
+  201  which prog1
+  202  pwd
+  203  which p
+  204  which prog1
+  205  which prog1.sh
+  206  cd /prueba1
+  207  cd /prueba1/
+  208  cd temp
+  209  cd /tem
+  210  cd/tmp/
+  211  cd /tmp/
+  212  which prueba1/
+  213  echo $PATH
+  214  cd
+  215  ls
+  216  mkdir bin
+  217  ls
+  218  cp /tmp/programa_identificador.sh bin/
+  219  cd home 
+  220  cd /HOME
+  221  cd /HOME/
+  222  vim .bash
+  223  vim bashrc
+  224  vim .bashrc
+  225  nano vim .bashrc
+  226  nano
+  227  nano .bashrc
+  228  last
+  229  which ls -a
+  230  la -a
+  231  ls -a
+  232  nano .bashrc
+  233  source .bashrc
+  234  nano .bashrc
+  235  soruce .bashrc
+  236  source .bashrc
+  237  source .bashrc.bashrc.bashrc.bashrc.bashrc.bashrc.bashrc.bashrc.bashrc.bashrc.bashrc.bashrc.bashrc.bashrc
+  238  nano /etc/bashrc
+  239  pwd
+  240  ls .bashrc
+  241  ls .bashrc -a
+  242  which .bashrc
+  243  vim bash_history
+  244  bash
+  245  echo $name
+  246  cd /var/log
+  247  cat auth.log auth.log1 | grep sshd
+  248  cd
+  249  clkaer
+  250  clear
+  251  cd /tmp
+  252  dd if=/dev/zero of=/tmp/data.out bs=1 count=12
+  253  split -b 2 data.out 
+  254  ls
+  255  ls file 
+  256  file ls 
+  257  ls -a
+  258  cat xa* > data2.out
+  259  ls -l
+  260  split -n 4 data.out salidas.
+  261  ls salidas 
+  262  salidas ls
+  263  la
+  264  cat /etc/password 
+  265  cat /etc/password/
+  266  cat /etc/passwd
+  267  cat /etc/passwdcut -d":" -f1,4
+  268  cut -d":" -f1,4
+  269  cut -d":" -f1,4 /etc/passwd
+  270  tail /etc/passwd
+  271  cut -d'$' -f1,4 /etc/passwd
+  272  cp.bash_history Documentos/history-clase1.txt
+  273  cp .bash_history Documentos/history-clase1.txt
+  274  p -4 addr
+  275  ip -4 addr
+  276  su - academia
+  277  w
+  278  man 
+  279  man 2
+  280  2
+  281  1
+  282  msn ls
+  283  man ls 
+  284  man ls
+  285  man ln
+  286  man apt
+  287  man ln
+  288  su - academia
+  289  id
+  290  su - academia
+  291  cd /tmp/
+  292  mkdir test
+  293  cd test/
+  294  mkdir folder{1,2}
+  295  ls
+  296  mkdir folder1/proyecto/acueducto
+  297  mkdir -p folder1/proyecto/acueducto
+  298  tree
+  299  rm -r test
+  300  cd -
+  301  rm -r test
+  302  exit
+  303  su -
+  304  su - estudiantes
+  305  su - academia 
+  306  su - estudiantes 
+  307  dc /tmp/test/
+  308  cd /tmp/test/
+  309  ls
+  310  tree
+  311  ls-l
+  312  ls -l
+  313  +
+  314  touch -p folder1/proyecto/acueducto/file-{1,2,3}/empleados/file-{casa,perro,gato/otros/perico}
+  315  touch -p folder1/proyecto/acueducto/file-{1,2,
+  316  touch -p folder1/proyecto/asministracion/acueducto/file-{1,2,3}/empleados/file-{casa,perro,gato/otro/perico
+  317  rm -r folder2
+  318  ls
+  319  rm -r folder2
+  320  tree
+  321  cd -p folder1/proyecto/acueducto/admistracion
+  322  cd -p folder1/proyecto/acueducto/
+  323  cd  folder1/proyecto/acueducto/
+  324  mkdir administracion
+  325  exit
+  326  cd /tmp/
+  327  ls
+  328  rm test/
+  329  rm -r test/
+  330  su -
+  331  su -P6p3.aas
+  332  su -
+  333  mkdir test1
+  334  cd test1/
+  335  mkdir proyecto
+  336  cd proyecto/
+  337  mkdir acueducto
+  338  cd acueducto/
+  339  mkdir administracion
+  340  mkdir empleados
+  341  touch file-casa
+  342  ls
+  343  touch file-gato
+  344  touch file-perro
+  345  mkdir otros
+  346  cd .
+  347  cd /tmp/test1/proyecto/
+  348  tree 
+  349  cd /tmp/test1/proyecto/acueducto/
+  350  touch file-{1,2,3}
+  351  tree
+  352  cd /tmp/test1/
+  353  tree
+  354  cd proyecto/acueducto/
+  355  ls
+  356  rm empleados/
+  357  rm empleados
+  358  rm -r  empleados
+  359  cd administracion/
+  360  mkdir empleados
+  361  cd.
+  362  cd .
+  363  cd ..
+  364  tree
+  365  cd /usr/bin 
+  366  ls -l
+  367  ls -l w*
+  368  ls -l ??
+  369  ls -l w??
+  370  ls -l w??[ba]*
+  371  ls -l w??[a-b]*
+  372  echo w???
+  373  echo [!q-v]*
+  374  echo [!A-Va-v]*
+  375  exitr 
+  376  exit
+  377  ls 
+  378  find . -name descargas
+  379  find . -name Descargas
+  380  find . / -name Descargas
+  381  locate Descargas 
+  382  locate Des*
+  383  locate 'Des'
+  384  mkdir Descuentos
+  385  locate 'Des'
+  386  locate 'Des*'
+  387  locate 'Des'
+  388  find . -name 'Des'
+  389  find . -name 'Des*'
+  390  mkdir -p test/Descontrol
+  391  find . -name 'Des*'
+  392  find . -name 'Des*' -o -name 'Doc*'
+  393  find . -iname 'Des*' -o -name 'Doc*'
+  394  find . -iname 'De*' -o -name 'Doc*'
+  395  sudo find . size +1GB
+  396  sudo find . -size +1GB
+  397  file / -name *.conf
+  398  whereis grep
+  399  whereis -m grep
+  400  whereis -b grep
+  401  which grep
+  402  whereis -b grep | cut -d "" -f1
+  403  whereis -b grep | cut -d "" -f2
+  404  whereis -b grep | cut -d ":" -f2
+  405  whereis -b grep | cut -d "" -f2
+  406  whereis -b grep | cut -d ": " -f2
+  407  whereis -b grep | cut -d " : " -f2
+  408  whereis -b grep | cut -d " :" -f2
+  409  whereis -b grep | cut -d "::" -f
+  410  whereis -b grep | cut -d ':' -f2
+  411  whereis -b grep | cut -d ' :' -f2
+  412  whereis -b grep | cut -d ': ' -f2
+  413  whereis -b grep | cut -d ':' -f2
+  414  whereis sudo
+  415  whereis -bm ls tr
+  416  whereis -bm ls tr -m gcc
+  417  whereis passwd
+  418  whereis passwd -b
+  419  whereis -b  passwd 
+  420  type ls 
+  421  type -a ls 
+  422  type -a grep
+  423  vim file1
+  424  su - academia 
+  425  com /home/
+  426  cd /home/
+  427  mkdir test
+  428  cd tes
+  429  cd test
+  430  ls
+  431  cd estudiantes/test/
+  432  vim file1
+  433  cd /tmp/
+  434  git clone https://github.com/HansKS/LXS1_hans.karlsson.git REPOremoto
+  435  ls
+  436  cd LXS1_hans.karlsson/
+  437  tree
+  438  cd .
+  439  cd..
+  440  cd .
+  441  cd -
+  442  cd .
+  443  cd ..
+  444  git add misc/sources.list 
+  445  exit
+  446  cd test/
+  447  cd misc/
+  448  history >history_clase2.txt
