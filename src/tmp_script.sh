@@ -9,11 +9,25 @@ RESET="\033[0m"
 if [[ 0 != $UID  ]]
 then
 	#Inicio el codigo de color con red, luego lo eliminoc on reset
-	echo -e "${RED}Usted debe ser root para correr este script${RESET}"
+	echo -e "${RED}Usted no debe ser root para correr este script${RESET}"
 	exit 1
 
 fi
 
-echo Hola $USER
+#Obtencion de informacion
+echo -en "Escriba su nombre completo > "
+read NOMBRE
+echo -en "Escriba su correo electronico > "
+read EMAIL
+
+
+echo -en "Hola $NOMBRE este es su correo? [${GREEN}$EMAIL${RESET} [s/n]?"
+read RESP
+
+if [[ s == $RESP  ]]
+then 
+	echo HOLA $NOMBRE. su correo es $EMAIL
+fi
+
 
 
