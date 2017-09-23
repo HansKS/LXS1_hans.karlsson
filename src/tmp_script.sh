@@ -26,8 +26,12 @@ read RESP
 
 if [[ s == $RESP  ]]
 then 
-	echo HOLA $NOMBRE. su correo es $EMAIL
+	echo HOLA $NOMBRE. Su correo es $EMAIL
 fi
 
+echo -en "${YELLOW}Agregando configuracion de git para el usuario $NOMBRE${RESET}"
+sudo su -estudiantes -c "git config --global user.name \"$NOMBRE""
+sudo su -estudiantes -c "git config --global user.email \"$NOMBRE""
+sudo su -estudiantes -c "git config --global core.editor vim"
 
 
